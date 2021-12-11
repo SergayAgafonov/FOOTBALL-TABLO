@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">tablo</string>
+    <string name="SibirTeam">Сибирь</string>
+    <string name="AkBarsTeam">Ак Барс</string>
+    <string name="colon">:</string>
+    <string name="ButtonSibir">очко Сибирь</string>
+    <string name="ButtonAkBars">очко Ак Барс</string>
+    <string name="ButtonReset">сброс</string>
+</resources>

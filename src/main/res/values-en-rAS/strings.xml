@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">tablo</string>
+    <string name="SibirTeam" translatable="false">Sibir</string>
+    <string name="AkBarsTeam" translatable="false">Ak Bars</string>
+    <string name="colon">:</string>
+    <string name="ButtonReset">reset</string>
+    <string name="ButtonSibir">point Sibir</string>
+    <string name="ButtonAkBars">point Ak Bars</string>
+</resources>

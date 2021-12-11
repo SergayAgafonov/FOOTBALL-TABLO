@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/IndantView"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/SibirTeam"
+        android:textSize="@dimen/SizeTextTeam" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="@dimen/IndantView"
+        android:gravity="center"
+        android:text="@string/AkBarsTeam"
+        android:textSize="@dimen/SizeTextTeam" />
+
+    <ImageView
+        android:layout_width="@dimen/HightWightImg"
+        android:layout_height="@dimen/HightWightImg"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/IndantView"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/img_1" />
+
+    <ImageView
+        android:layout_width="@dimen/HightWightImg"
+        android:layout_height="@dimen/HightWightImg"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="@dimen/IndantView"
+        android:background="@drawable/img_2" />
+
+    <TextView
+        android:id="@+id/AkBars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="200dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:textSize="@dimen/TextPoibtsSize" />
+    <TextView
+        android:id="@+id/Sibir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:textSize="@dimen/TextPoibtsSize" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:textSize="@dimen/TextPoibtsSize"
+        android:text="@string/colon"
+        />
+
+    <Button
+        android:layout_width="@dimen/WidhtButton"
+        android:layout_height="@dimen/HightButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/IndantView"
+        android:layout_marginTop="170dp"
+        android:backgroundTint="@color/black"
+        android:onClick="ClickSibir"
+        android:text="@string/ButtonSibir" />
+
+    <Button
+        android:layout_width="@dimen/WidhtButton"
+        android:layout_height="@dimen/HightButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="@dimen/IndantView"
+        android:backgroundTint="@color/black"
+        android:onClick="ClickAkBars"
+        android:text="@string/ButtonAkBars" />
+
+    <Button
+        android:layout_width="@dimen/WidhtButton"
+        android:layout_height="@dimen/HightButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:backgroundTint="@color/black"
+        android:onClick="ClickReset"
+        android:text="@string/ButtonReset" />
+
+</RelativeLayout>

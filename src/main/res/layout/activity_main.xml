@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/img_7"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/IndantView"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="@string/SibirTeam"
+        android:textColor="@color/black"
+        android:textSize="@dimen/SizeTextTeam" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="@dimen/IndantView"
+        android:gravity="center"
+        android:text="@string/AkBarsTeam"
+        android:textColor="@color/black"
+        android:textSize="@dimen/SizeTextTeam" />
+
+    <ImageView
+        android:layout_width="@dimen/HightWightImg"
+        android:layout_height="@dimen/HightWightImg"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/IndantView"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/img_1" />
+
+    <ImageView
+        android:layout_width="@dimen/HightWightImg"
+        android:layout_height="@dimen/HightWightImg"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/IndantView"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/img_2" />
+
+    <TextView
+        android:id="@+id/AkBars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/IndantView"
+        android:layout_marginTop="250dp"
+        android:gravity="center"
+        android:textSize="@dimen/TextPoibtsSize" />
+    <TextView
+        android:id="@+id/Sibir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/IndantView"
+        android:layout_marginTop="250dp"
+        android:gravity="center"
+        android:textSize="@dimen/TextPoibtsSize" />
+
+    <TextView
+        android:id="@+id/dv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:gravity="center"
+        android:text="@string/colon"
+        android:textSize="@dimen/TextPoibtsSize" />
+
+    <Button
+        android:layout_width="@dimen/WidhtButton"
+        android:layout_height="@dimen/HightButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/IndantView"
+        android:layout_marginTop="370dp"
+        android:backgroundTint="#03A9F4"
+        android:onClick="ClickSibir"
+        android:text="@string/ButtonSibir" />
+    <Button
+        android:layout_width="@dimen/WidhtButton"
+        android:layout_height="@dimen/HightButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/IndantView"
+        android:layout_marginTop="370dp"
+        android:backgroundTint="#03A9F4"
+        android:onClick="ClickAkBars"
+        android:text="@string/ButtonAkBars"/>
+
+    <Button
+        android:layout_width="@dimen/WidhtButton"
+        android:layout_height="@dimen/HightButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="#03A9F4"
+        android:onClick="ClickReset"
+        android:text="@string/ButtonReset"/>
+
+
+
+
+</RelativeLayout>
